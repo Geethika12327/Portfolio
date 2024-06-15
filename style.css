@@ -1,0 +1,338 @@
+.nav {
+    background-color: #b9f4f6;
+    width: 100%;
+    height: 2%;
+    background-image: linear-gradient();
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.details {
+    position: relative;
+    top: -23px;
+    left: 28%;
+    font-size: 1.3rem;
+    word-spacing: 135px;
+}
+
+.details a {
+    text-decoration: none;
+    color: #000;
+    line-height: 130px;
+}
+
+.social {
+    position: relative;
+    left: 50%;
+    top: -23px;
+    font-size: 1.5rem;
+}
+
+.social a {
+    color: #000;
+}
+
+#aboutme {
+    box-sizing: border-box;
+    margin: 1% 5% 1% 5%;
+    position: relative;
+    top: 0;
+}
+
+
+.my {
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    border-radius: 50%;
+}
+
+.my1 {
+    position: absolute;
+    top: 20%;
+    left: 41%;
+}
+
+#aboutme a {
+
+    color: white;
+}
+
+.mydetails {
+    position: relative;
+    top: 20px;
+    border: 1px solid;
+    display: flex;
+    margin: 1% 10% 1% 10%;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.span1 {
+    margin-left: 26%;
+}
+
+.span2 {
+    margin-left: 21%;
+}
+
+.span3 {
+    margin-left: 17%;
+}
+
+.span4 {
+    margin-left: 18%;
+}
+
+.span5 {
+    margin-left: 16%;
+}
+
+.projects {
+    font-size: 1.2em;
+    margin: 2% 10%;
+    line-height: 30px;
+}
+
+#projecth1 {
+
+    margin-left: 20px;
+}
+
+#technicalskill .tech {
+
+
+    margin-left: 10%;
+}
+
+.html {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.tech1 {
+
+    margin-top: 30px;
+}
+
+.tech2 {
+
+
+
+    margin-top: 30px;
+}
+
+.css {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.js {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.html1:hover .html2{
+
+background-color: aqua;
+width: 100%;
+height: 25px;
+
+}
+.html2{
+
+    border-radius: 10px;
+height: 25px;
+    background-color: aqua;
+    width: 0;
+    transition: all 3s linear;
+}
+.css2{
+
+    border-radius: 10px;
+height: 25px;
+    background-color: aqua;
+    width: 0;
+    transition: all 3s linear;
+}
+.css1:hover .css2{
+
+    background-color: aqua;
+    width: 80%;
+    height: 25px;
+    
+    }
+    .js2{
+
+        border-radius: 10px;
+    height: 25px;
+        background-color: aqua;
+        width: 0;
+        transition: all 3s linear;
+        
+    }
+    .js1:hover .js2{
+    
+        background-color: aqua;
+        width: 70%;
+        height: 25px;
+        
+        }
+        .contact{
+width: 90%;
+height: 60vh;
+background-image: linear-gradient(to bottom right, rgb(82, 113, 113), rgb(155, 43, 101));
+        }
+        
+         .js2 p{
+            display: none;
+         }
+.tech2:hover p{
+    display: block;
+}
+.css2 p{
+    display: none;
+ }
+.tech1:hover p{
+display: block;
+}
+.html2 p{
+    display: none;
+ }
+.tech:hover p{
+display: block;
+}
+@media screen and (max-width:480px){
+   .details{
+display: flex;
+flex-direction: column;
+
+   }
+   .img1{
+    margin-left: -30px;
+    width: 320px;
+   }
+   .mydetails{
+    margin-left: -30px;
+    
+   }
+   #aboutme{
+
+    width: 320px;
+   }
+   .me{
+    width: 90%!important;
+   }
+   .mydetails h1{
+
+    font-size: 1em;
+   }
+   .mydetails p{
+font-size: .5em;
+width: 250px;
+   }
+   .span{
+margin-top: 20px;
+    margin-left: -0px!important;
+   }
+   #projects{
+    font-size: .9em;
+
+   }
+   .pro h1{
+    margin: 20px!important;
+    font-size: 1em;
+   }
+   
+   .details{
+margin-left: -60px;
+    margin-top: 30px;
+    word-spacing: 0px!important;
+   }
+   .social{
+    display: flex;
+    margin-left: -145px;
+    word-spacing: 0px;
+    margin-top: px;
+   }
+   .my{
+margin-left: -50px;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+   }
+   .my1 h1{
+    font-size: 1em;
+    margin-top: 60px;
+margin-left: -90px;
+   }
+.p{
+margin-left: -70px!important
+   }
+   .social1{
+display: flex;
+margin-left: -90px!important;
+margin-top: 0px!important;
+word-spacing: px!important;
+   }
+   .social1 a{
+
+    margin-right: 10px!important;
+   }
+   .mydetails{
+    display: flex;
+    flex-direction: column;
+   }
+   nav{
+height: 30px;
+    width: 340px;
+   }
+   .social1{
+    color: rebeccapurple;
+   }
+   nav img{
+display: none;
+    
+   }
+    h1{
+
+    font-size: 1.5em !important;
+   }
+   .tech img{
+    width: 30px;
+   }
+   .tech:hover p{
+    display: none;
+    margin-bottom: -500px!important;
+   }
+   .contact{margin-left: -20px ; width: 100%;}
+pre{  font-size: .6em; margin-left: -0px!important;}
+nav .details{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -103px!important;
+    word-spacing: 0 !important;
+    font: 1em ;
+    background-color:#bc1313;
+}}
+   footer{
+    width: 130%;
+    height: 10vh;
+    background-color: black;
+    position: relative;
+    left: -280px;
+    top: 10px;
+   }
